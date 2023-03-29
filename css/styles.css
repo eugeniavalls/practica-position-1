@@ -1,0 +1,167 @@
+/* 
+colors: 
+  body background: #0c122c
+  card background: #1d2c67
+  bar color: #d765f1
+*/
+
+/*
+ 
+REVISA EN LOS APUNTES LA PROPIEDAD border-radius
+
+PARA CAMBIAR EL TAMAÑO DE FUENTE USA LA PROPIEDAD font-size
+
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #0c122c;
+  font-family: sans-serif;
+}
+
+.fylo {
+  display: inline-block;
+  background-color: #1d2b67;
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  border-top-right-radius: 120px;
+  padding: 20px;
+  position: absolute;
+  left: 200px;
+}
+
+.logo {
+  padding: 10px;
+}
+
+.icons {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.icon-document {
+  background-color: #0c122c;
+  border-radius: 5px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  padding-left: 10px;
+  margin-right: 20px;
+}
+
+.icon-folder {
+  background-color: #0c122c;
+  border-radius: 5px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  padding-top: 12px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  margin-right: 20px;
+}
+
+.icon-upload {
+  background-color: #0c122c;
+  border-radius: 5px;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 8px;
+  padding-top: 15px;
+  padding-left: 10px;
+  margin-right: 20px;
+}
+
+.rectangle-text {
+  display: inline-block;
+  background-color: #1d2b67;
+  width: 500px;
+  height: 150px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-left: 30px;
+  position: absolute;
+  right: -50px;
+}
+
+.rectangles {
+  position: absolute;
+  bottom: 120px;
+  width: 1000px;
+  height: 350px;
+}
+
+p {
+  color: white;
+  margin-left: 30px;
+  font-size: small;
+}
+.barra {
+  background-color: #0c122c;
+  border-radius: 10px;
+  width: 350px;
+  height: 18px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+button {
+  width: 250px;
+  height: 18px;
+  border-radius: 10px;
+  background-color: palevioletred;
+  border-style: none;
+}
+
+.span {
+  margin-top: 20px;
+}
+
+span {
+  color: white;
+  font-size: small;
+  margin-left: 30px;
+}
+
+.text2 {
+  margin-left: 300px;
+}
+
+.text-white {
+  background-color: white;
+  width: 150px;
+  height: 80px;
+  border-radius: 10px;
+  display: inline-block;
+  position: absolute;
+  right: -75px;
+  top: -25px;
+}
+
+.text-white-1 {
+  color: black;
+  display: inline-block;
+  font-size: x-large;
+  width: 20px;
+}
+
+.text-white-2 {
+  color: black;
+  display: inline-block;
+}
+.background-image {
+  position: absolute;
+  bottom: 0;
+}
